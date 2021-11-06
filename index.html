@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stickey Navbar</title>
+    <style>
+
+        html
+        {
+            font-size: 62.5%;
+        }
+        * {
+            margin: 0;
+            /* font-family: 'Poppins', sans-serif; */
+            box-sizing: border-box;
+        }
+
+        body {
+            background: url(images/pexels-errin-casano-2356045.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            min-height: 150rem
+        }
+
+        header {
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: 0.6s;
+            padding: 4rem 10rem;
+
+        }
+
+        header .logo {
+            position: relative;
+            font-weight: 700;
+            font-weight: bolder;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 2rem;
+            letter-spacing: .2rem;
+            transition: 0.6s;
+
+
+            background: -webkit-linear-gradient(10deg, rgb(206, 252, 1), rgb(255, 1, 64));
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+
+
+        }
+
+        header ul {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        header ul li {
+            position: relative;
+            list-style: none;
+            
+
+
+        }
+
+        header ul li a {
+            
+            position: relative;
+            margin: 0 1.5rem;
+            font-size: 2.0rem;
+            font-weight: bolder;
+            text-decoration: none;
+
+            background: -webkit-linear-gradient(20deg, red, blue);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        /* .img
+        {
+          
+           padding-top: 20rem;
+            padding-right: 4rem;
+             width: 50rem;
+             height: 50rem;
+             
+           
+          
+           border-radius: 80%; 
+            margin-right: 50rem;
+             display: flex;
+           
+          
+           
+
+        } */
+        .text
+        {
+            padding: 30rem 5rem 2rem 5rem ;
+            font-size: 7rem;
+            /* color: white; */
+            
+            font-weight: 200;
+            background: -webkit-linear-gradient(220deg,red,rgb(255, 0, 212));
+    background-clip:text ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+        }
+        .text-1
+        {
+            /* color: rgb(247, 162, 162); */
+            background: -webkit-linear-gradient(20deg,rgb(43, 255, 0),rgb(0, 204, 255));
+    background-clip:text ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+            font-family:cursive;
+            letter-spacing: 1rem;
+            font-size: 3.4rem;
+            font-weight: bolder;
+            padding: 5rem 5rem 2rem 10rem ;
+        }
+
+        .text-3
+        {
+            /* color: rgb(15, 236, 34); */
+            
+            padding: 2rem 0rem 0rem 15rem ;
+            font-size: 6rem;
+            font-weight: 100;
+            background: -webkit-linear-gradient(220deg,red,rgb(242, 242, 245));
+    background-clip:text ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+        }
+
+        footer {
+            /* background-color: darkslateblue; */
+            text-align: center;
+            
+          
+           
+           padding-bottom: 10rem;
+           padding-top: 60rem;
+            /* color: lightseagreen; */
+            
+        }
+
+footer a {
+            /* background-color: darkslateblue; */
+            text-align: center;
+            
+          padding: 1.5rem;
+           
+           padding-bottom: 10rem;
+           padding-top: 60rem;
+            color: lightseagreen;
+            font-size: 2.5rem;
+            font-size: 2.5rem;
+            background: -webkit-linear-gradient(20deg,red,rgb(7, 7, 240));
+    background-clip:text ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+        }
+        .foot {
+            color: white;
+            font-size: 3rem;
+            font-size: 2.5rem;
+            background: -webkit-linear-gradient(220deg,red,rgb(7, 7, 240));
+    background-clip:text ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+        }
+
+        .heart {
+            color: rgb(255, 20, 20);
+            font-size: 3rem;
+        }
+        
+        /* @media all {
+            html 
+            {
+                font-size: 50%;
+            }
+            
+        } */
+          
+ @media all and (max-width:999px) and (min-width:699px) {
+    html {
+        font-size: 35%;
+
+
+
+
+    }
+}
+    
+@media all and (max-width:699px) and (min-width:519px) {
+    html {
+        font-size: 40%;
+
+
+
+
+    }
+}
+
+    @media (max-width:519px) and (min-width:399px) {
+    html {
+       font-size: 30%;
+    }
+ }
+ @media (max-width:399px) and (min-width:279px) {
+    html {
+       font-size: 19%;
+    }
+ }
+
+ @media (max-width:279px) and (min-width:159px) {
+    html {
+       font-size: 10%;
+    }
+ }
+ @media (max-width:159px) and (min-width:120px) {
+    html {
+       font-size: 6%;
+    }
+ }
+ @media (max-width:120px) and (min-width:50px) {
+    html {
+       font-size: 3%;
+    }
+ }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">Logo</a>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </header>
+
+    <!-- <div >
+        <img class="img" src="images/photo-1499951360447-b19be8fe80f5.png" alt="Image, failed to load" >
+
+    </div> -->
+    
+    <p class="text">
+        15245 <sup>254685</sup> Lorem ipsum dolor sit amet consectetur<sup>quas</sup> adipisicing elit. </p>
+       <p class="text-1">
+        Fugit 589<sub>24</sub> omnis ut deleniti quos   explicabo consequatur fuga quaerat dolorem placeat.
+       </p>
+        
+       <p class="text-3">
+        Sapiente quas et repellat labore ut omnis deleniti! Eius, sapiente amet.
+       </p>
+    
+       <footer>
+        <a href="#">FAQs</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Terms Of Use</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Refund Policy</a>
+        
+        <p class="foot">&copy;  All Rights Reserved. 
+
+        </p>
+        <p class="heart"> Made with 💖 </p>
+
+    </footer>
+</body>
+
+</html>
